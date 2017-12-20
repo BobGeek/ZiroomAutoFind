@@ -1,16 +1,17 @@
 # ZiroomAutoFind
 自如自动筛选刷新房屋状态 Matlab版本爬虫 邮件提醒
 
-%%设置的参数
-searchurl = 'http://www.ziroom.com/z/nl/z2-o1.html?qwd=';	%查找的 url
-keyword = [{'蒲黄榆'},{'刘家窑'},{'宋家庄'},{'金港国际'}];      %关键字
-pricemax = 2500;                                            %最大价格
-pricemin = 1000;                                            %最小价格
-mailto = [];                                                %接收邮箱  不用邮件功能请留空
-% mailto = 'wangpeng214@126.com';                             %接收邮箱  不用邮件功能请留空
-mailfrom = 'wangpeng214@126.com';                           %发送邮箱
-mailpass = '123456789';                                   %发送邮箱密码
-times = 1000;                                               %循环刷新次数
+
+设置的参数
+searchurl = 'http://www.ziroom.com/z/nl/z2-o1.html?qwd=';       %查找的 url
+keyword = [{'蒲黄榆'},{'刘家窑'},{'宋家庄'},{'金港国际'}];       %关键字
+pricemax = 2500;                                                %最大价格
+pricemin = 1000;                                                %最小价格
+mailto = [];                                                    %接收邮箱  不用邮件功能请留空
+% mailto = 'wangpeng214@126.com';                               %接收邮箱  不用邮件功能请留空
+mailfrom = 'wangpeng214@126.com';                               %发送邮箱
+mailpass = '123456789';                                         %发送邮箱密码
+times = 1000;                                                   %循环刷新次数
 
 
 
